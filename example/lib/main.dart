@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         barrierDismissible: false,
                         builder: (_) {
                           return CustomDialog(
-                            content: "是否要退出应用？",
+                            content: "这是一个公共的确认取消dialog",
                             confirmContent: "确定",
                             confirmCallback: () {
                               print('确定');
