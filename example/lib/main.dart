@@ -1,9 +1,10 @@
-import 'package:commonlib_example/second.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:commonlib/common_lib.dart';
+
+import 'loading_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -90,6 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         barrierDismissible: false,
                         builder: (_) {
                           return CustomDialog(
+                            title: '标题',
                             content: "这是一个公共的确认取消dialog",
                             confirmContent: "确定",
                             confirmCallback: () {
@@ -105,24 +107,24 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
               ),
               ElevatedButton(
-                child: Text('Open second route1'),
+                child: Text('显示一个加载等待框'),
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return NewRoute();
+                    return LoadingExample();
                   }));
                 },
               ),
-              ElevatedButton(
-                child: Text('Present second stateful route'),
-                onPressed: () {},
-              ),
-              ElevatedButton(
-                child: Text('Present second route'),
-                onPressed: () {},
-              ),
-              ElevatedButton(
-                  child: Text('Flutter to Flutter with Animation'),
-                  onPressed: () {})
+              // ElevatedButton(
+              //   child: Text('Present second stateful route'),
+              //   onPressed: () {},
+              // ),
+              // ElevatedButton(
+              //   child: Text('Present second route'),
+              //   onPressed: () {},
+              // ),
+              // ElevatedButton(
+              //     child: Text('Flutter to Flutter with Animation'),
+              //     onPressed: () {})
             ],
           ),
         ),
