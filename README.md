@@ -46,5 +46,5 @@ A new Flutter plugin.
     • iPhone 11 Pro Max • B366D105-9EEC-47E4-A0CE-94C43E9ACD2D • ios • com.apple.CoreSimulator.SimRuntime.iOS-13-2 (simulator)
     • SCL的 iPhone (mobile) • c8d772b25c3f412f630906165970b0871bb527aa • ios • iOS 13.7
 ```
-![image](https://github.com/JeremyTanZone/flutter_commonlib/screenshots/screen_home.png)
-![image](https://github.com/JeremyTanZone/flutter_commonlib/screenshots/screen_dialog.png)
+![image](https://github.com/JeremyTanZone/flutter_commonlib/blob/master/screenshots/screen_home.png)
+![image](https://github.com/JeremyTanZone/flutter_commonlib/blob/master/screenshots/screen_home.png)
